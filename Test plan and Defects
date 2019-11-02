@@ -51,7 +51,7 @@ Steps to reproduce:
 Expected result:
 - internet connection error "Check your data connection" should be displayed
 Actual result
-- Infinite loading in the screen
+- Infinite loading in the screen then it freeze with no rotation in the loader
 
 Device used: iPhone X OS 13.1.1
 Attachement is added
@@ -96,8 +96,56 @@ Attachement is added
 Priority: High 
 Severity: High
 
+4. Unable to change Linkedin location permssion
+Steps to reproduce:
+- Launch Linkedin app with logged in user ex. Username , password
+- Open Linkedin setting in the device
+- Change Location permission from Ask next time to never
+- Click back
+- Check location permission again
+Expected result:
+- Location permission should be changed to never
+Actual result
+- Permission is still Ask next time
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: High
 
-4. Infinte loading when clicking on new group conversation with no internet connection
+
+
+5. White Empty screen when opening message from notification center with no internet connection
+Precondition:
+- Send a message to the logged in user
+Steps to reproduce:
+- Disconnect internet connection
+- Open the message from device notification center
+Expected result:
+- internet connection error "Check your data connection" should be displayed
+Actual result
+- White empty screen
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: High
+
+6. Infinte loading in home screen with non reachable internet connection
+Preconditon:
+-Open cellular data and disable it for linkedin
+Steps to reproduce:
+- Launch Linkedin app with logged in user ex. Username , password
+- Pull to refresh in home screen
+Expected result:
+- internet connection error "Check your data connection" should be displayed
+Actual result
+- Infinite loading in the screen
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: Medium
+
+
+7. Infinte loading when clicking on new group conversation with no internet connection
 Steps to reproduce:
 - Launch Linkedin app with logged in user ex. Username , password
 - Disconnect internet connection
@@ -113,36 +161,27 @@ Priority: High
 Severity: Medium
 
 
-
-5. Infinte loading in home screen with non reachable internet connection
-Preconditon:
--Open cellular data and disable it for linkedin
+8. Two Loading indicators in notifications screen when pull to refresh with non reachable network
+Precondition:
+- Open 4G and disable it for Linkedin
 Steps to reproduce:
 - Launch Linkedin app with logged in user ex. Username , password
-- Pull to refresh in home screen
+- Click on notifications icon
+- Pull to refresh
 Expected result:
-- internet connection error "Check your data connection" should be displayed
+- There should be one loader until timeout and data connection error is displayed        
 Actual result
-- Infinite loading in the screen
+- Two Loading indicators are displayed
 Device used: iPhone X OS 13.1.1
 Attachement is added
-Priority: High 
+Priority: Medium 
 Severity: Medium
 
-6. White Empty screen when opening message from notification center with no internet connection
-Precondition:
-- Send a message to the logged in user
-Steps to reproduce:
-- Disconnect internet connection
-- Open the message from device notification center
-Expected result:
-- internet connection error "Check your data connection" should be displayed
-Actual result
-- White empty screen
-Device used: iPhone X OS 13.1.1
-Attachement is added
-Priority: High 
-Severity: High
+
+
+
+
+
 
 
 
