@@ -1,0 +1,12 @@
+## First part is about creating a test plan for one of mobile applications.
+
+### Deliverables:
+1. A list of ideas/bullet points you would test for. Focus on good coverage, rather than complete test cases
+2. A prioritization of such test cases according to their possible business impact
+
+## Second part is about reporting defects
+
+### Deliverables:
+1. Write down six bugs you found
+2. Mention (clear title - reproduce steps - needed attachments - affected devices - network - severity and priority).
+
