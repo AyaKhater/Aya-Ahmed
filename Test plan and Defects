@@ -7,28 +7,28 @@
 
 The App is Linkedin
 Testplan:
-1. Check that new user can register successfully through the app
-2. Check that registered user can login successfully by right credentials through the app
-3. Check that an error will be displayed when login by wrong credentials
-4. Check user home is displayed successfully after login by right credentials
-5. Check user can create a post successfully when clicking on "Write a post" or clicking on the "+" sign
-6. Check user can create a post with text and image successfully
-7. Check user can create a post with text , image and video successfully
-8. Check creating a post with no internet connection will display an internet connection error
-9. Check opening the app with no internet connection
-10. Check user can search for people , jobs , content successfully
-11. Check an error will be displayed when there is no result for the search
-12. Check messaging screen having all the messages successfully
-13. Check pagination in messaging screen
-14. Check messaging screen with no internet connection will display internet connection error
-15. Check user can create new message when clicking on new message icon
-16. Check my network screen is displayed successfully when clicking on network icon
-17. Check user can follow another user when clicking on "Follow" button and can see his posts on the home screen
-18. Check user can recieve notifications when allow notification permssion of the app
-19. Check notifications screen is displayed successfully having all the recieved notifications
-20. Check jobs screen is displayed successfully when clicking on jobs icon in the bottom of the screen
-21. Check side menu is displayed when clicking on the photo of the user
-22. Check data connection error when clicking on a notification with no internet connection
+1.P1_Check that new user can register successfully through the app
+2.P1_Check that registered user can login successfully by right credentials through the app
+3.P1_Check that an error will be displayed when login by wrong credentials
+4.P1_Check user home is displayed successfully after login by right credentials
+5.P1_Check user can create a post successfully when clicking on "Write a post" or clicking on the "+" sign
+6.P1_Check user can create a post with text and image successfully
+7.P1_Check user can create a post with text , image and video successfully
+8.P1_Check creating a post with no internet connection will display an internet connection error
+9.P1_Check opening the app with no internet connection
+10.P1_Check user can search for people , jobs , content successfully
+11.P2_Check "No search result" will be displayed when there is no result for the search
+12.P1_Check messaging screen having all the messages successfully
+13.P2_Check pagination in messaging screen
+14.P1_Check messaging screen with no internet connection will display internet connection error
+15.P1_Check user can create new message when clicking on new message icon
+16.P1_Check my network screen is displayed successfully when clicking on network icon
+17.P1_Check user can follow another user when clicking on "Follow" button and can see his posts on the home screen
+18.P1_Check user can recieve notifications when allow notification permssion of the app
+19.P1_Check notifications screen is displayed successfully having all the recieved notifications
+20.P1_Check jobs screen is displayed successfully when clicking on jobs icon in the bottom of the screen
+21.P1_Check side menu is displayed when clicking on the photo of the user
+22.P1_Check data connection error when clicking on a notification with no internet connection
 
 
 
