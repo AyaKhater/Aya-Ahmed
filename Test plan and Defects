@@ -4,9 +4,146 @@
 1. A list of ideas/bullet points you would test for. Focus on good coverage, rather than complete test cases
 2. A prioritization of such test cases according to their possible business impact
 
+
+The App is Linkedin
+Testplan:
+1. Check that new user can register successfully through the app
+2. Check that registered user can login successfully by right credentials through the app
+3. Check that an error will be displayed when login by wrong credentials
+4. Check user home is displayed successfully after login by right credentials
+5. Check user can create a post successfully when clicking on "Write a post" or clicking on the "+" sign
+6. Check user can create a post with text and image successfully
+7. Check user can create a post with text , image and video successfully
+8. Check creating a post with no internet connection will display an internet connection error
+9. Check opening the app with no internet connection
+10. Check user can search for people , jobs , content successfully
+11. Check an error will be displayed when there is no result for the search
+12. Check messaging screen having all the messages successfully
+13. Check pagination in messaging screen
+14. Check messaging screen with no internet connection will display internet connection error
+15. Check user can create new message when clicking on new message icon
+16. Check my network screen is displayed successfully when clicking on network icon
+17. Check user can follow another user when clicking on "Follow" button and can see his posts on the home screen
+18. Check user can recieve notifications when allow notification permssion of the app
+19. Check notifications screen is displayed successfully having all the recieved notifications
+20. Check jobs screen is displayed successfully when clicking on jobs icon in the bottom of the screen
+21. Check side menu is displayed when clicking on the photo of the user
+22. Check data connection error when clicking on a notification with no internet connection
+
+
+
 ## Second part is about reporting defects
 
 ### Deliverables:
 1. Write down six bugs you found
 2. Mention (clear title - reproduce steps - needed attachments - affected devices - network - severity and priority).
+
+
+Defects:
+
+
+1. Infinite loading in messaging screen when opening it with no internet connection
+Steps to reproduce:
+- Launch Linkedin with logged in user ex. username , password
+- Disconnect internet connection
+- Click on messages icon
+- Pull to refresh the screen
+Expected result:
+- internet connection error "Check your data connection" should be displayed
+Actual result
+- Infinite loading in the screen
+
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: Medium
+
+2. Freeze in home screen when clicking on camera icon when camera permission is disabled , clicking on settings and not allowing the permission
+Preconditon:
+- Disable camera permission
+Steps to reproduce:
+- Launch Linkedin app with logged in user ex. Username , password
+- Click on camera icon
+- Click on settings
+- Don't allow the permission
+- Go back to the app
+Expected result:
+- Home should be displayed with no errors
+Actual result
+- Keypad is displayed and there is a freeze in the app
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: High
+
+
+3. Corrupted voice note is sent after disabling microphone permission
+Precondition: 
+- Allow microphone permission
+Steps to reproduce
+- Launch Linkedin app with logged in user ex. Username , password
+- Click on messaging icon
+- Select user to message
+- Go to device settings and disabled microhone permission for linkedin
+- navigate to the app again
+- send a voice note to another user
+Expected result:
+- Popup should be displayed "Microphone permssion is not allowed please Go to settings"
+Actual result
+- Corrupted voice note is sent to user
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: High
+
+
+4. Infinte loading when clicking on new group conversation with no internet connection
+Steps to reproduce:
+- Launch Linkedin app with logged in user ex. Username , password
+- Disconnect internet connection
+- Click on messaging icon
+- click on new group conversation icon on the right top of the screen
+Expected result:
+- internet connection error "Check your data connection" should be displayed
+Actual result
+- Infinite loading in the screen
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: Medium
+
+
+
+5. Infinte loading in home screen with non reachable internet connection
+Preconditon:
+-Open cellular data and disable it for linkedin
+Steps to reproduce:
+- Launch Linkedin app with logged in user ex. Username , password
+- Pull to refresh in home screen
+Expected result:
+- internet connection error "Check your data connection" should be displayed
+Actual result
+- Infinite loading in the screen
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: Medium
+
+6. White Empty screen when opening message from notification center with no internet connection
+Precondition:
+- Send a message to the logged in user
+Steps to reproduce:
+- Disconnect internet connection
+- Open the message from device notification center
+Expected result:
+- internet connection error "Check your data connection" should be displayed
+Actual result
+- White empty screen
+Device used: iPhone X OS 13.1.1
+Attachement is added
+Priority: High 
+Severity: High
+
+
+
 
