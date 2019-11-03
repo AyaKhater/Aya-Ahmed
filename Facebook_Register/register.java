@@ -27,7 +27,10 @@ public class register {
 		day.click();
 		WebElement option1 = driver.findElement(By.xpath("//*[@id=\"day\"]/option[5]"));
 		option1.click();
-		//Test
+		//Test  
+		
+		
+		
 
 		WebElement month = driver.findElement(By.id("month")).click();
 		month.click();
