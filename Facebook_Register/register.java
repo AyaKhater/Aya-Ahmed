@@ -16,7 +16,7 @@ public class register {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http:\\www.facebook.com");
 				
-		//Register
+		
 		driver.findElement(By.id("u_0_m")).sendKeys("Ahmed");
 		driver.findElement(By.id("u_0_o")).sendKeys("Zaki");
 		driver.findElement(By.id("u_0_r")).sendKeys("az8024857@gmail.com");
@@ -27,8 +27,6 @@ public class register {
 		day.click();
 		WebElement option1 = driver.findElement(By.xpath("//*[@id=\"day\"]/option[5]"));
 		option1.click();
-		//Test
-		
 		
 		WebElement month = driver.findElement(By.id("month")).click();
 		month.click();
