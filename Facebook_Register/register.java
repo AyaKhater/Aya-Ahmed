@@ -14,9 +14,7 @@ public class register {
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\ahmeda5\\Desktop\\Selenium course\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http:\\www.facebook.com");
-		
-		//driver.findElement(By.id("u_0_2")).click();
-		
+				
 		driver.findElement(By.id("u_0_m")).sendKeys("Ahmed");
 		driver.findElement(By.id("u_0_o")).sendKeys("Zaki");
 		driver.findElement(By.id("u_0_r")).sendKeys("az8024857@gmail.com");
@@ -40,7 +38,6 @@ public class register {
 		
 		driver.findElement(By.id("u_0_13")).click();
 		
-	   // driver.close();
 	}
 	
 
