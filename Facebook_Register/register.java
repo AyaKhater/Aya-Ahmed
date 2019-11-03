@@ -16,6 +16,7 @@ public class register {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http:\\www.facebook.com");
 				
+		//Register
 		driver.findElement(By.id("u_0_m")).sendKeys("Ahmed");
 		driver.findElement(By.id("u_0_o")).sendKeys("Zaki");
 		driver.findElement(By.id("u_0_r")).sendKeys("az8024857@gmail.com");
