@@ -21,8 +21,8 @@ public class register {
 		driver.findElement(By.id("u_0_u")).sendKeys("az8024857@gmail.com");
 		driver.findElement(By.id("u_0_w")).sendKeys("012345678");
 		
-		driver.findElement(By.id("day")).click();
-	   
+		driver.findElement(By.id("day"));
+	  
         driver.findElement(By.id("month")).click(); 
         
         driver.findElement(By.id("year")).click(); 
